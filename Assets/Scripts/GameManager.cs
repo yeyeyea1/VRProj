@@ -5,13 +5,10 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // static
+
     public static int Score;
 
-
     public TMP_Text txtScore;
-
-
 
     private void Update()
     {

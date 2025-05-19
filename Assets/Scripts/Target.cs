@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Target : MonoBehaviour
+public class NewBehaviourScript : MonoBehaviour
 {
     public int targetScore;
 
@@ -23,9 +23,9 @@ public class Target : MonoBehaviour
         float randomY = Random.Range(1, 3);
 
         Vector3 rePos = transform.position;
-        rePos.x = randomX;
-        rePos.y = randomY;
+        rePos.x= randomX;
+        rePos.y= randomY;
 
-        transform.position = rePos;
+        transform.position = rePos; 
     }
 }
